@@ -1,0 +1,9 @@
+run = "bash start.sh"
+entrypoint = "app/main.py"
+
+[nix]
+channel = "stable-23_11"
+
+[deployment]
+run = ["bash", "start.sh"]
+deploymentTarget = "gce"
