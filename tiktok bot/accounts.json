@@ -1,0 +1,14 @@
+[
+  {
+    "handle": "my_main",
+    "session": "sessions/my_main.json",
+    "proxy": null,
+    "enabled": true
+  },
+  {
+    "handle": "my_alt",
+    "session": "sessions/my_alt.json",
+    "proxy": "http://user:pass@host:port",
+    "enabled": true
+  }
+]
